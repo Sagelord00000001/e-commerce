@@ -60,7 +60,7 @@ export default function ExploreByCategory() {
   }
 
   return (
-    <div className="min-h-screen bg-white p-16">
+    <div className="min-h-screen bg-[#fdfbf8] rounded-t-lg md:px-16 px-4 py-4">
       <main className="container mx-auto px-4 py-8">
         <h1 className="text-center text-4xl md:text-5xl font-serif font-bold text-teal-800 mb-12">
           Explore by Category
@@ -90,7 +90,7 @@ export default function ExploreByCategory() {
 
             {/* Scrollable Categories */}
             <div className="relative">
-              <div className="h-[700px] overflow-y-auto pr-4 border-r border-gray-200 scrollbar-thin">
+              <div className="h-[200px] md:h-[720px]  overflow-y-auto pr-4 border-r border-gray-200 scrollbar-thin">
                 <div className="space-y-4">
                   {filteredCategories.length > 0 ? (
                     filteredCategories.map((category) => (
