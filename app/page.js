@@ -7,14 +7,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <ExploreByCategory/>
-    <div>
-      <div className="bg-[#EEEBFF] h-auto md:px-10 px-5 py-4 ">
+  <>
+      <div className="bg-[#e9e9e9] h-auto md:px-10 px-5 py-4 ">
         <Navbar />
         <Homepage />
-        <ExploreByCategory/>
       </div>
-    </div>
      <ExploreByCategory />
   </>
   );
