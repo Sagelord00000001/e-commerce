@@ -16,7 +16,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
   return (
-    <nav className="flex items-center justify-between p-4 text-[#07484A]">
+    <nav className=" fixed top-0 left-0 right-0 z-90 bg-[#EEEBFF]/60 backdrop-blur-md shadow-md  flex items-center justify-between px-6 py-2 md:px-16 text-[#07484A]">
       {/* LOGO */}
       <Link href="/">
         <img src="/logo.jpeg" alt="logo" className="h-15 bg-[#07484A]" />
